@@ -1,21 +1,17 @@
-# Maria Syed — QA Portfolio Website
+# Maria Syed — Software QA Portfolio
 
-A responsive static portfolio website built with HTML, CSS, and a small amount of JavaScript. No build step is required.
+A responsive personal portfolio site built with HTML, CSS, and vanilla JavaScript. No build command or framework is required.
 
-## Deploy on Netlify
-1. Create a new GitHub repository named `qa-portfolio-website`.
-2. Upload `index.html`, `styles.css`, `script.js`, `README.md`, and `netlify.toml` to the repository root.
-3. Sign in at https://app.netlify.com/ and choose **Add new site → Import an existing project**.
-4. Connect GitHub and select `qa-portfolio-website`.
-5. Leave the build command empty and set the publish directory to `.`.
-6. Deploy. Netlify will provide a `*.netlify.app` address.
-7. Check the live website and all project links before adding it to your CV or LinkedIn.
+## Preview
+Open `index.html` in a browser.
 
-## Before publishing
-- Verify phone number, email, LinkedIn, and GitHub links.
-- Verify that case-study filenames in your existing portfolio repository match the links in `index.html`.
-- Make sure no confidential information or customer data is included.
-- JMeter findings reflect a specific documented test run, not current website performance.
-- This is a static website; the email button opens an email client. It does not include a backend or contact form processing.
+## Deploy to Netlify
+1. Upload these files to the root of a new GitHub repository.
+2. Sign in to Netlify with GitHub and select **Add new site → Import an existing project**.
+3. Choose this repository, leave the build command blank, and use `.` as the publish directory if requested.
+4. Deploy.
 
-After connecting GitHub, future commits to the connected branch trigger automatic redeployment.
+## Check before publishing
+- Verify the email, LinkedIn, GitHub, and case-study links.
+- Ensure project descriptions match your actual contribution and only include information you have permission to share.
+- The JMeter graphic is illustrative of the documented test run; it is not live monitoring or a claim about current website performance.
